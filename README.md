@@ -8,3 +8,4 @@ On this basis, some modifications are made to the problem of building energy con
 
 # Data Sources
 
+The dataset mainly comes from the energy consumption data of Chongqing Halo Building provided by Hongkong Land. After simple data desensitization processing, the dataset is public at here.
