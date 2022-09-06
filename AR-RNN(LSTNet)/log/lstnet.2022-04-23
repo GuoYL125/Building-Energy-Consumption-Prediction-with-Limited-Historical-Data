@@ -1,0 +1,11 @@
+2022-04-23 23:02:07.959 (219269) (INFO) MainThread.<module> -> Python version: 3.8.12 (default, Oct 12 2021, 13:49:34) 
+[GCC 7.5.0]
+2022-04-23 23:02:07.961 (219269) (INFO) MainThread.<module> -> Tensorflow version: 2.8.0
+2022-04-23 23:02:07.961 (219269) (INFO) MainThread.<module> -> Keras version: 2.8.0 ... Using tensorflow embedded keras
+2022-04-23 23:02:13.457 (219269) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-04-23 23:02:29.339 (219269) (INFO) MainThread.<module> -> Training shape: X:(10347, 168, 862) Y:(10347, 862)
+2022-04-23 23:02:29.339 (219269) (INFO) MainThread.<module> -> Validation shape: X:(3509, 168, 862) Y:(3509, 862)
+2022-04-23 23:02:29.339 (219269) (INFO) MainThread.<module> -> Testing shape: X:(3509, 168, 862) Y:(3509, 862)
+2022-04-23 23:02:29.339 (219269) (INFO) MainThread.<module> -> Creating model
+2022-04-23 23:02:36.980 (219269) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-04-23 23:02:36.980 (219269) (INFO) MainThread.<module> -> Training model ... 

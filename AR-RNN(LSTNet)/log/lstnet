@@ -1,0 +1,1118 @@
+2022-05-12 00:08:20.196 (62456) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:08:20.197 (62456) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:08:20.197 (62456) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:08:20.257 (62456) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:08:20.273 (62456) (INFO) MainThread.<module> -> Training shape: X:(739, 35, 74) Y:(739, 74)
+2022-05-12 00:08:20.273 (62456) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:08:20.273 (62456) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:08:20.273 (62456) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:08:26.468 (62456) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:08:26.469 (62456) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:09:01.694 (63999) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:09:01.695 (63999) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:09:01.695 (63999) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:09:01.755 (63999) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:09:01.771 (63999) (INFO) MainThread.<module> -> Training shape: X:(739, 35, 74) Y:(739, 74)
+2022-05-12 00:09:01.771 (63999) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:09:01.771 (63999) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:09:01.771 (63999) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:09:07.394 (63999) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:09:07.394 (63999) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:11:00.996 (63999) (INFO) MainThread.train -> Training time took: 0:01:53.601580
+2022-05-12 00:11:00.997 (63999) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:11:01.30 (63999) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:11:01.34 (63999) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:11:01.35 (63999) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001895, RSE:0.133207, Correlation:nan
+2022-05-12 00:11:01.255 (63999) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001590, RSE:0.103186, Correlation:nan
+2022-05-12 00:12:57.943 (72281) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:12:57.943 (72281) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:12:57.943 (72281) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:12:58.0 (72281) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:12:58.16 (72281) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 00:12:58.16 (72281) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:12:58.16 (72281) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:12:58.16 (72281) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_1_1_64
+2022-05-12 00:12:58.16 (72281) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 00:13:04.116 (72281) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:13:10.521 (72281) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002263, RSE:0.146003, Correlation:nan
+2022-05-12 00:13:10.522 (72281) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 00:13:11.143 (72281) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 00:13:11.144 (72281) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 00:13:11.144 (72281) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 00:13:11.144 (72281) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 00:14:37.660 (75803) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:14:37.660 (75803) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:14:37.660 (75803) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:14:37.719 (75803) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:14:37.734 (75803) (INFO) MainThread.<module> -> Training shape: X:(745, 35, 74) Y:(745, 74)
+2022-05-12 00:14:37.734 (75803) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:14:37.734 (75803) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:14:37.734 (75803) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:14:45.4 (75803) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:14:45.4 (75803) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:16:41.13 (75803) (INFO) MainThread.train -> Training time took: 0:01:56.008442
+2022-05-12 00:16:41.14 (75803) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:16:41.14 (75803) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-5_Akima_1_1_64.json already exists. Backing it up to save/need_new_data_Akima-5_Akima_1_1_6420220512.json
+2022-05-12 00:16:41.27 (75803) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-5_Akima_1_1_64.h5 already exists. Backing it up to save/need_new_data_Akima-5_Akima_1_1_6420220512.h5
+2022-05-12 00:16:41.49 (75803) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:16:41.49 (75803) (WARNING) MainThread.SaveResults -> File save/need_new_data_Akima-5_Akima_1_1_64.txt already exists. Backing it up to save/need_new_data_Akima-5_Akima_1_1_6420220512.txt
+2022-05-12 00:16:41.51 (75803) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:16:41.51 (75803) (WARNING) MainThread.SaveHistory -> File save/need_new_data_Akima-5_Akima_1_1_64_history.csv already exists. Backing it up to save/need_new_data_Akima-5_Akima_1_1_6420220512_history.csv
+2022-05-12 00:16:41.52 (75803) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.000776, RSE:0.065362, Correlation:nan
+2022-05-12 00:16:41.251 (75803) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.000573, RSE:0.037884, Correlation:nan
+2022-05-12 00:16:46.842 (80485) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:16:46.842 (80485) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:16:46.842 (80485) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:16:46.900 (80485) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:16:46.916 (80485) (INFO) MainThread.<module> -> Training shape: X:(744, 35, 74) Y:(744, 74)
+2022-05-12 00:16:46.917 (80485) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:16:46.917 (80485) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:16:46.917 (80485) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:16:53.15 (80485) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:16:53.15 (80485) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:18:47.804 (80485) (INFO) MainThread.train -> Training time took: 0:01:54.789254
+2022-05-12 00:18:47.806 (80485) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:18:47.840 (80485) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:18:47.842 (80485) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:18:47.843 (80485) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002335, RSE:0.100046, Correlation:nan
+2022-05-12 00:18:48.61 (80485) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.002757, RSE:0.108378, Correlation:nan
+2022-05-12 00:18:53.568 (85118) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:18:53.569 (85118) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:18:53.569 (85118) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:18:53.625 (85118) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:18:53.641 (85118) (INFO) MainThread.<module> -> Training shape: X:(743, 35, 74) Y:(743, 74)
+2022-05-12 00:18:53.642 (85118) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:18:53.642 (85118) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:18:53.642 (85118) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:18:59.591 (85118) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:18:59.591 (85118) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:20:51.973 (85118) (INFO) MainThread.train -> Training time took: 0:01:52.382029
+2022-05-12 00:20:51.975 (85118) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:20:52.9 (85118) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:20:52.11 (85118) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:20:52.13 (85118) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001959, RSE:0.121367, Correlation:nan
+2022-05-12 00:20:52.231 (85118) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001664, RSE:0.082646, Correlation:nan
+2022-05-12 00:20:57.870 (89746) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:20:57.870 (89746) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:20:57.870 (89746) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:20:57.933 (89746) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:20:57.950 (89746) (INFO) MainThread.<module> -> Training shape: X:(742, 35, 74) Y:(742, 74)
+2022-05-12 00:20:57.950 (89746) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:20:57.950 (89746) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:20:57.950 (89746) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:21:03.972 (89746) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:21:03.972 (89746) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:22:57.549 (89746) (INFO) MainThread.train -> Training time took: 0:01:53.576786
+2022-05-12 00:22:57.550 (89746) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:22:57.576 (89746) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:22:57.578 (89746) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:22:57.579 (89746) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002111, RSE:0.125679, Correlation:nan
+2022-05-12 00:22:57.797 (89746) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001760, RSE:0.088251, Correlation:nan
+2022-05-12 00:23:03.333 (94401) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:23:03.334 (94401) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:23:03.334 (94401) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:23:03.393 (94401) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:23:03.409 (94401) (INFO) MainThread.<module> -> Training shape: X:(741, 35, 74) Y:(741, 74)
+2022-05-12 00:23:03.409 (94401) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:23:03.409 (94401) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:23:03.410 (94401) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:23:09.334 (94401) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:23:09.334 (94401) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:25:11.192 (94401) (INFO) MainThread.train -> Training time took: 0:02:01.857735
+2022-05-12 00:25:11.193 (94401) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:25:11.226 (94401) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:25:11.228 (94401) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:25:11.231 (94401) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.003529, RSE:0.200682, Correlation:nan
+2022-05-12 00:25:11.438 (94401) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.003057, RSE:0.147334, Correlation:nan
+2022-05-12 00:25:16.394 (99284) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:25:16.395 (99284) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:25:16.395 (99284) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:25:16.458 (99284) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:25:16.474 (99284) (INFO) MainThread.<module> -> Training shape: X:(740, 35, 74) Y:(740, 74)
+2022-05-12 00:25:16.474 (99284) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:25:16.474 (99284) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:25:16.474 (99284) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:25:22.492 (99284) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:25:22.492 (99284) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:27:16.600 (99284) (INFO) MainThread.train -> Training time took: 0:01:54.107999
+2022-05-12 00:27:16.601 (99284) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:27:16.627 (99284) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:27:16.629 (99284) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:27:16.630 (99284) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001836, RSE:0.129099, Correlation:nan
+2022-05-12 00:27:16.844 (99284) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001533, RSE:0.099491, Correlation:nan
+2022-05-12 00:27:21.792 (103963) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:27:21.793 (103963) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:27:21.793 (103963) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:27:21.852 (103963) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:27:21.868 (103963) (INFO) MainThread.<module> -> Training shape: X:(739, 35, 74) Y:(739, 74)
+2022-05-12 00:27:21.869 (103963) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:27:21.869 (103963) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:27:21.869 (103963) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:27:28.64 (103963) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:27:28.64 (103963) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:29:26.432 (103963) (INFO) MainThread.train -> Training time took: 0:01:58.367737
+2022-05-12 00:29:26.435 (103963) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:29:26.470 (103963) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:29:26.472 (103963) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:29:26.473 (103963) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002268, RSE:0.156293, Correlation:nan
+2022-05-12 00:29:26.692 (103963) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001852, RSE:0.124370, Correlation:nan
+2022-05-12 00:32:01.261 (113701) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:32:01.261 (113701) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:32:01.261 (113701) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:32:01.322 (113701) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:32:01.338 (113701) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 00:32:01.338 (113701) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:32:01.338 (113701) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:32:01.338 (113701) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_1_1_64
+2022-05-12 00:32:01.338 (113701) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 00:32:07.300 (113701) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:32:13.231 (113701) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002580, RSE:0.178302, Correlation:nan
+2022-05-12 00:32:13.232 (113701) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 00:32:13.826 (113701) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 00:32:13.827 (113701) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 00:32:13.827 (113701) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 00:32:13.827 (113701) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 00:32:36.294 (115131) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:32:36.294 (115131) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:32:36.294 (115131) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:32:36.351 (115131) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:32:36.366 (115131) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 00:32:36.367 (115131) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:32:36.367 (115131) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:32:36.367 (115131) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_2_1_64
+2022-05-12 00:32:36.367 (115131) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 00:32:42.417 (115131) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:32:48.128 (115131) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002916, RSE:0.137059, Correlation:nan
+2022-05-12 00:32:48.129 (115131) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 00:32:48.751 (115131) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 00:32:48.751 (115131) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 00:32:48.752 (115131) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 00:32:48.752 (115131) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 00:33:07.363 (117109) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:33:07.363 (117109) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:33:07.364 (117109) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:33:07.424 (117109) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:33:07.440 (117109) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 00:33:07.440 (117109) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:33:07.440 (117109) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:33:07.440 (117109) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_3_1_64
+2022-05-12 00:33:07.440 (117109) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 00:33:13.441 (117109) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:33:19.170 (117109) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002361, RSE:0.143742, Correlation:nan
+2022-05-12 00:33:19.171 (117109) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 00:33:20.108 (117109) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 00:33:20.109 (117109) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 00:33:20.109 (117109) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 00:33:20.109 (117109) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 00:33:39.232 (118424) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:33:39.232 (118424) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:33:39.232 (118424) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:33:39.290 (118424) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:33:39.306 (118424) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 00:33:39.306 (118424) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:33:39.306 (118424) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:33:39.306 (118424) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_4_1_64
+2022-05-12 00:33:39.306 (118424) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 00:33:45.251 (118424) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:33:50.942 (118424) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002426, RSE:0.138179, Correlation:nan
+2022-05-12 00:33:50.942 (118424) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 00:33:52.146 (118424) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 00:33:52.147 (118424) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 00:33:52.147 (118424) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 00:33:52.147 (118424) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 00:34:21.558 (120057) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:34:21.559 (120057) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:34:21.559 (120057) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:34:21.620 (120057) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:34:21.636 (120057) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 00:34:21.636 (120057) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:34:21.636 (120057) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:34:21.636 (120057) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_5_1_64
+2022-05-12 00:34:21.636 (120057) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 00:34:27.847 (120057) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:34:34.491 (120057) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.003578, RSE:0.209748, Correlation:nan
+2022-05-12 00:34:34.492 (120057) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 00:34:35.687 (120057) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 00:34:35.688 (120057) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 00:34:35.688 (120057) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 00:34:35.688 (120057) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 00:35:02.506 (121640) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:35:02.506 (121640) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:35:02.506 (121640) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:35:02.562 (121640) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:35:02.577 (121640) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 00:35:02.578 (121640) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:35:02.578 (121640) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:35:02.578 (121640) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_6_1_64
+2022-05-12 00:35:02.578 (121640) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 00:35:09.387 (121640) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:35:16.333 (121640) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002279, RSE:0.147346, Correlation:nan
+2022-05-12 00:35:16.334 (121640) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 00:35:16.985 (121640) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 00:35:16.986 (121640) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 00:35:16.986 (121640) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 00:35:16.986 (121640) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 00:35:36.459 (123001) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:35:36.459 (123001) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:35:36.459 (123001) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:35:36.520 (123001) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:35:36.535 (123001) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 00:35:36.536 (123001) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:35:36.536 (123001) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 00:35:36.536 (123001) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_7_1_64
+2022-05-12 00:35:36.536 (123001) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 00:35:43.740 (123001) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:35:49.771 (123001) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002541, RSE:0.176719, Correlation:nan
+2022-05-12 00:35:49.772 (123001) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 00:35:50.917 (123001) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 00:35:50.917 (123001) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 00:35:50.917 (123001) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 00:35:50.917 (123001) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 00:53:08.791 (158016) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:53:08.791 (158016) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:53:08.791 (158016) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:53:08.791 (158016) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/need_new_data_Akima-3.txt'
+2022-05-12 00:53:08.792 (158016) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 00:54:08.870 (160008) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:54:08.870 (160008) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:54:08.870 (160008) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:54:08.904 (160008) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:54:08.911 (160008) (INFO) MainThread.<module> -> Training shape: X:(447, 21, 74) Y:(447, 74)
+2022-05-12 00:54:08.911 (160008) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:54:08.911 (160008) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:54:08.911 (160008) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:54:15.590 (160008) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:54:15.590 (160008) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:55:18.479 (160008) (INFO) MainThread.train -> Training time took: 0:01:02.888549
+2022-05-12 00:55:18.480 (160008) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:55:18.513 (160008) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:55:18.515 (160008) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:55:18.516 (160008) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001385, RSE:0.132450, Correlation:nan
+2022-05-12 00:55:18.640 (160008) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001096, RSE:0.079187, Correlation:nan
+2022-05-12 00:55:29.476 (163107) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:55:29.477 (163107) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:55:29.477 (163107) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:55:29.512 (163107) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:55:29.519 (163107) (INFO) MainThread.<module> -> Training shape: X:(446, 21, 74) Y:(446, 74)
+2022-05-12 00:55:29.519 (163107) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:55:29.519 (163107) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:55:29.519 (163107) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:55:35.530 (163107) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:55:35.531 (163107) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:56:36.221 (163107) (INFO) MainThread.train -> Training time took: 0:01:00.690514
+2022-05-12 00:56:36.223 (163107) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:56:36.223 (163107) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.json already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.json
+2022-05-12 00:56:36.236 (163107) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.h5 already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.h5
+2022-05-12 00:56:36.257 (163107) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:56:36.257 (163107) (WARNING) MainThread.SaveResults -> File save/need_new_data_Akima-3_Akima_1_1_64.txt already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.txt
+2022-05-12 00:56:36.259 (163107) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:56:36.259 (163107) (WARNING) MainThread.SaveHistory -> File save/need_new_data_Akima-3_Akima_1_1_64_history.csv already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512_history.csv
+2022-05-12 00:56:36.260 (163107) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001319, RSE:0.128419, Correlation:nan
+2022-05-12 00:56:36.380 (163107) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001031, RSE:0.076379, Correlation:nan
+2022-05-12 00:56:41.693 (165996) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:56:41.693 (165996) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:56:41.693 (165996) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:56:41.731 (165996) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:56:41.738 (165996) (INFO) MainThread.<module> -> Training shape: X:(445, 21, 74) Y:(445, 74)
+2022-05-12 00:56:41.738 (165996) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:56:41.738 (165996) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:56:41.738 (165996) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:56:47.82 (165996) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:56:47.82 (165996) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:57:49.123 (165996) (INFO) MainThread.train -> Training time took: 0:01:02.040961
+2022-05-12 00:57:49.124 (165996) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:57:49.124 (165996) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.json already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.json
+2022-05-12 00:57:49.136 (165996) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.h5 already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.h5
+2022-05-12 00:57:49.155 (165996) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:57:49.155 (165996) (WARNING) MainThread.SaveResults -> File save/need_new_data_Akima-3_Akima_1_1_64.txt already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.txt
+2022-05-12 00:57:49.157 (165996) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:57:49.158 (165996) (WARNING) MainThread.SaveHistory -> File save/need_new_data_Akima-3_Akima_1_1_64_history.csv already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512_history.csv
+2022-05-12 00:57:49.159 (165996) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002065, RSE:0.159412, Correlation:nan
+2022-05-12 00:57:49.281 (165996) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001841, RSE:0.104080, Correlation:nan
+2022-05-12 00:57:54.530 (168923) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:57:54.530 (168923) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:57:54.530 (168923) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:57:54.567 (168923) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:57:54.573 (168923) (INFO) MainThread.<module> -> Training shape: X:(444, 21, 74) Y:(444, 74)
+2022-05-12 00:57:54.574 (168923) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:57:54.574 (168923) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:57:54.574 (168923) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:57:59.847 (168923) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:57:59.848 (168923) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 00:58:59.686 (168923) (INFO) MainThread.train -> Training time took: 0:00:59.838394
+2022-05-12 00:58:59.687 (168923) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 00:58:59.688 (168923) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.json already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.json
+2022-05-12 00:58:59.701 (168923) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.h5 already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.h5
+2022-05-12 00:58:59.722 (168923) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 00:58:59.723 (168923) (WARNING) MainThread.SaveResults -> File save/need_new_data_Akima-3_Akima_1_1_64.txt already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.txt
+2022-05-12 00:58:59.725 (168923) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 00:58:59.725 (168923) (WARNING) MainThread.SaveHistory -> File save/need_new_data_Akima-3_Akima_1_1_64_history.csv already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512_history.csv
+2022-05-12 00:58:59.726 (168923) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002479, RSE:0.138990, Correlation:nan
+2022-05-12 00:58:59.843 (168923) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.002389, RSE:0.112480, Correlation:nan
+2022-05-12 00:59:04.730 (171756) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 00:59:04.730 (171756) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 00:59:04.730 (171756) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 00:59:04.766 (171756) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 00:59:04.773 (171756) (INFO) MainThread.<module> -> Training shape: X:(443, 21, 74) Y:(443, 74)
+2022-05-12 00:59:04.773 (171756) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:59:04.773 (171756) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 00:59:04.773 (171756) (INFO) MainThread.<module> -> Creating model
+2022-05-12 00:59:10.736 (171756) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 00:59:10.736 (171756) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:00:10.661 (171756) (INFO) MainThread.train -> Training time took: 0:00:59.924502
+2022-05-12 01:00:10.661 (171756) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:00:10.662 (171756) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.json already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.json
+2022-05-12 01:00:10.670 (171756) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.h5 already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.h5
+2022-05-12 01:00:10.688 (171756) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:00:10.688 (171756) (WARNING) MainThread.SaveResults -> File save/need_new_data_Akima-3_Akima_1_1_64.txt already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.txt
+2022-05-12 01:00:10.690 (171756) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:00:10.690 (171756) (WARNING) MainThread.SaveHistory -> File save/need_new_data_Akima-3_Akima_1_1_64_history.csv already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512_history.csv
+2022-05-12 01:00:10.691 (171756) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002064, RSE:0.155306, Correlation:nan
+2022-05-12 01:00:10.817 (171756) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001791, RSE:0.119034, Correlation:nan
+2022-05-12 01:00:16.43 (174609) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:00:16.44 (174609) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:00:16.44 (174609) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:00:16.85 (174609) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:00:16.92 (174609) (INFO) MainThread.<module> -> Training shape: X:(442, 21, 74) Y:(442, 74)
+2022-05-12 01:00:16.92 (174609) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:00:16.92 (174609) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:00:16.92 (174609) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:00:22.27 (174609) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:00:22.28 (174609) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:01:23.78 (174609) (INFO) MainThread.train -> Training time took: 0:01:01.050365
+2022-05-12 01:01:23.79 (174609) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:01:23.80 (174609) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.json already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.json
+2022-05-12 01:01:23.93 (174609) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.h5 already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.h5
+2022-05-12 01:01:23.113 (174609) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:01:23.113 (174609) (WARNING) MainThread.SaveResults -> File save/need_new_data_Akima-3_Akima_1_1_64.txt already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.txt
+2022-05-12 01:01:23.115 (174609) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:01:23.115 (174609) (WARNING) MainThread.SaveHistory -> File save/need_new_data_Akima-3_Akima_1_1_64_history.csv already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512_history.csv
+2022-05-12 01:01:23.116 (174609) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002394, RSE:0.180048, Correlation:nan
+2022-05-12 01:01:23.234 (174609) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.002065, RSE:0.138969, Correlation:nan
+2022-05-12 01:01:28.780 (177563) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:01:28.781 (177563) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:01:28.781 (177563) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:01:28.822 (177563) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:01:28.829 (177563) (INFO) MainThread.<module> -> Training shape: X:(441, 21, 74) Y:(441, 74)
+2022-05-12 01:01:28.829 (177563) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:01:28.829 (177563) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:01:28.829 (177563) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:01:34.778 (177563) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:01:34.778 (177563) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:02:36.412 (177563) (INFO) MainThread.train -> Training time took: 0:01:01.634139
+2022-05-12 01:02:36.414 (177563) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:02:36.414 (177563) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.json already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.json
+2022-05-12 01:02:36.429 (177563) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.h5 already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.h5
+2022-05-12 01:02:36.450 (177563) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:02:36.450 (177563) (WARNING) MainThread.SaveResults -> File save/need_new_data_Akima-3_Akima_1_1_64.txt already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.txt
+2022-05-12 01:02:36.452 (177563) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:02:36.452 (177563) (WARNING) MainThread.SaveHistory -> File save/need_new_data_Akima-3_Akima_1_1_64_history.csv already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512_history.csv
+2022-05-12 01:02:36.453 (177563) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002451, RSE:0.187282, Correlation:nan
+2022-05-12 01:02:36.569 (177563) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.002004, RSE:0.136556, Correlation:nan
+2022-05-12 01:04:30.765 (184000) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:04:30.766 (184000) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:04:30.766 (184000) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:04:30.806 (184000) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:04:30.812 (184000) (INFO) MainThread.<module> -> Training shape: X:(447, 21, 74) Y:(447, 74)
+2022-05-12 01:04:30.812 (184000) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:04:30.812 (184000) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:04:30.812 (184000) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:04:37.430 (184000) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:04:37.430 (184000) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:05:40.763 (184000) (INFO) MainThread.train -> Training time took: 0:01:03.333249
+2022-05-12 01:05:40.764 (184000) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:05:40.765 (184000) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.json already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.json
+2022-05-12 01:05:40.777 (184000) (WARNING) MainThread.SaveModel -> File save/need_new_data_Akima-3_Akima_1_1_64.h5 already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.h5
+2022-05-12 01:05:40.798 (184000) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:05:40.798 (184000) (WARNING) MainThread.SaveResults -> File save/need_new_data_Akima-3_Akima_1_1_64.txt already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512.txt
+2022-05-12 01:05:40.800 (184000) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:05:40.800 (184000) (WARNING) MainThread.SaveHistory -> File save/need_new_data_Akima-3_Akima_1_1_64_history.csv already exists. Backing it up to save/need_new_data_Akima-3_Akima_1_1_6420220512_history.csv
+2022-05-12 01:05:40.801 (184000) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.003491, RSE:0.162774, Correlation:nan
+2022-05-12 01:05:40.920 (184000) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.003582, RSE:0.145497, Correlation:nan
+2022-05-12 01:05:46.314 (186921) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:05:46.314 (186921) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:05:46.315 (186921) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:05:46.351 (186921) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:05:46.357 (186921) (INFO) MainThread.<module> -> Training shape: X:(446, 21, 74) Y:(446, 74)
+2022-05-12 01:05:46.357 (186921) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:05:46.357 (186921) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:05:46.357 (186921) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:05:52.396 (186921) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:05:52.396 (186921) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:06:54.692 (186921) (INFO) MainThread.train -> Training time took: 0:01:02.295606
+2022-05-12 01:06:54.693 (186921) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:06:54.725 (186921) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:06:54.727 (186921) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:06:54.728 (186921) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001788, RSE:0.144367, Correlation:nan
+2022-05-12 01:06:54.851 (186921) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001519, RSE:0.092990, Correlation:nan
+2022-05-12 01:07:00.326 (189817) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:07:00.327 (189817) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:07:00.327 (189817) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:07:00.364 (189817) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:07:00.370 (189817) (INFO) MainThread.<module> -> Training shape: X:(445, 21, 74) Y:(445, 74)
+2022-05-12 01:07:00.370 (189817) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:07:00.370 (189817) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:07:00.370 (189817) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:07:06.981 (189817) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:07:06.981 (189817) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:08:08.441 (189817) (INFO) MainThread.train -> Training time took: 0:01:01.459958
+2022-05-12 01:08:08.442 (189817) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:08:08.476 (189817) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:08:08.478 (189817) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:08:08.479 (189817) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001832, RSE:0.151364, Correlation:nan
+2022-05-12 01:08:08.593 (189817) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001524, RSE:0.105292, Correlation:nan
+2022-05-12 01:08:13.996 (192732) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:08:13.996 (192732) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:08:13.996 (192732) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:08:14.34 (192732) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:08:14.40 (192732) (INFO) MainThread.<module> -> Training shape: X:(444, 21, 74) Y:(444, 74)
+2022-05-12 01:08:14.40 (192732) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:08:14.40 (192732) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:08:14.40 (192732) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:08:20.513 (192732) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:08:20.513 (192732) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:09:23.403 (192732) (INFO) MainThread.train -> Training time took: 0:01:02.889599
+2022-05-12 01:09:23.405 (192732) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:09:23.435 (192732) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:09:23.437 (192732) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:09:23.438 (192732) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002930, RSE:0.158901, Correlation:nan
+2022-05-12 01:09:23.555 (192732) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.003085, RSE:0.141065, Correlation:nan
+2022-05-12 01:09:29.155 (195658) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:09:29.155 (195658) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:09:29.155 (195658) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:09:29.193 (195658) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:09:29.199 (195658) (INFO) MainThread.<module> -> Training shape: X:(443, 21, 74) Y:(443, 74)
+2022-05-12 01:09:29.200 (195658) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:09:29.200 (195658) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:09:29.200 (195658) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:09:35.572 (195658) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:09:35.572 (195658) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:10:38.562 (195658) (INFO) MainThread.train -> Training time took: 0:01:02.989573
+2022-05-12 01:10:38.564 (195658) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:10:38.596 (195658) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:10:38.598 (195658) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:10:38.599 (195658) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.004531, RSE:0.168693, Correlation:nan
+2022-05-12 01:10:38.724 (195658) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.004912, RSE:0.171329, Correlation:nan
+2022-05-12 01:10:44.353 (198574) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:10:44.354 (198574) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:10:44.354 (198574) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:10:44.395 (198574) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:10:44.402 (198574) (INFO) MainThread.<module> -> Training shape: X:(442, 21, 74) Y:(442, 74)
+2022-05-12 01:10:44.402 (198574) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:10:44.402 (198574) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:10:44.402 (198574) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:10:50.657 (198574) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:10:50.657 (198574) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:11:52.743 (198574) (INFO) MainThread.train -> Training time took: 0:01:02.082083
+2022-05-12 01:11:52.745 (198574) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:11:52.773 (198574) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:11:52.775 (198574) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:11:52.776 (198574) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002183, RSE:0.168479, Correlation:nan
+2022-05-12 01:11:52.896 (198574) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001820, RSE:0.125140, Correlation:nan
+2022-05-12 01:11:58.197 (201479) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:11:58.198 (201479) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:11:58.198 (201479) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:11:58.245 (201479) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:11:58.253 (201479) (INFO) MainThread.<module> -> Training shape: X:(441, 21, 74) Y:(441, 74)
+2022-05-12 01:11:58.253 (201479) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:11:58.253 (201479) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:11:58.253 (201479) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:12:05.693 (201479) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:12:05.693 (201479) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:13:08.96 (201479) (INFO) MainThread.train -> Training time took: 0:01:02.402154
+2022-05-12 01:13:08.97 (201479) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:13:08.128 (201479) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:13:08.130 (201479) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:13:08.131 (201479) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.004596, RSE:0.202558, Correlation:nan
+2022-05-12 01:13:08.251 (201479) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.004921, RSE:0.219214, Correlation:nan
+2022-05-12 01:15:54.653 (209720) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:15:54.654 (209720) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:15:54.654 (209720) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:15:54.654 (209720) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/data/new_need_data_Akima-3.txt'
+2022-05-12 01:15:54.654 (209720) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 01:16:19.182 (210565) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:16:19.183 (210565) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:16:19.183 (210565) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:16:19.183 (210565) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/data/new_need_data_Akima-3.txt'
+2022-05-12 01:16:19.183 (210565) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 01:16:50.265 (211634) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:16:50.265 (211634) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:16:50.265 (211634) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:16:50.309 (211634) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:16:50.315 (211634) (INFO) MainThread.<module> -> Training shape: X:(436, 21, 74) Y:(436, 74)
+2022-05-12 01:16:50.315 (211634) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:16:50.315 (211634) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:16:50.315 (211634) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-3_Akima_1_1_64
+2022-05-12 01:16:50.315 (211634) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:16:56.831 (211634) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:17:03.914 (211634) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.003623, RSE:0.179568, Correlation:nan
+2022-05-12 01:17:03.915 (211634) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:17:04.458 (211634) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:17:04.459 (211634) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:17:04.459 (211634) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 780. Setting it to 0
+2022-05-12 01:17:04.459 (211634) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,780[. Setting it to 779
+2022-05-12 01:17:52.559 (213901) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:17:52.560 (213901) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:17:52.560 (213901) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:17:52.597 (213901) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:17:52.603 (213901) (INFO) MainThread.<module> -> Training shape: X:(436, 21, 74) Y:(436, 74)
+2022-05-12 01:17:52.603 (213901) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:17:52.603 (213901) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:17:52.603 (213901) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-3_Akima_1_1_64
+2022-05-12 01:17:52.603 (213901) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:17:59.48 (213901) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:18:06.150 (213901) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.003623, RSE:0.179568, Correlation:nan
+2022-05-12 01:18:06.151 (213901) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:18:06.694 (213901) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:18:06.694 (213901) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:18:06.695 (213901) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 780. Setting it to 0
+2022-05-12 01:18:06.695 (213901) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,780[. Setting it to 779
+2022-05-12 01:18:26.133 (215212) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:18:26.133 (215212) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:18:26.133 (215212) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:18:26.169 (215212) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:18:26.175 (215212) (INFO) MainThread.<module> -> Training shape: X:(436, 21, 74) Y:(436, 74)
+2022-05-12 01:18:26.176 (215212) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:18:26.176 (215212) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:18:26.176 (215212) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-3_Akima_2_1_64
+2022-05-12 01:18:26.176 (215212) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:18:32.855 (215212) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:18:38.769 (215212) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002764, RSE:0.186944, Correlation:nan
+2022-05-12 01:18:38.770 (215212) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:18:39.361 (215212) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:18:39.361 (215212) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:18:39.362 (215212) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 780. Setting it to 0
+2022-05-12 01:18:39.362 (215212) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,780[. Setting it to 779
+2022-05-12 01:19:00.188 (216574) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:19:00.188 (216574) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:19:00.188 (216574) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:19:00.228 (216574) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:19:00.235 (216574) (INFO) MainThread.<module> -> Training shape: X:(436, 21, 74) Y:(436, 74)
+2022-05-12 01:19:00.235 (216574) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:19:00.235 (216574) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:19:00.235 (216574) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-3_Akima_3_1_64
+2022-05-12 01:19:00.235 (216574) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:19:06.881 (216574) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:19:13.475 (216574) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002431, RSE:0.171398, Correlation:nan
+2022-05-12 01:19:13.476 (216574) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:19:14.31 (216574) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:19:14.32 (216574) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:19:14.32 (216574) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 780. Setting it to 0
+2022-05-12 01:19:14.32 (216574) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,780[. Setting it to 779
+2022-05-12 01:19:34.225 (217924) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:19:34.225 (217924) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:19:34.225 (217924) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:19:34.264 (217924) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:19:34.271 (217924) (INFO) MainThread.<module> -> Training shape: X:(436, 21, 74) Y:(436, 74)
+2022-05-12 01:19:34.271 (217924) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:19:34.271 (217924) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:19:34.271 (217924) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-3_Akima_4_1_64
+2022-05-12 01:19:34.271 (217924) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:19:40.704 (217924) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:19:46.935 (217924) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.003047, RSE:0.168861, Correlation:nan
+2022-05-12 01:19:46.935 (217924) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:19:47.919 (217924) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:19:47.919 (217924) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:19:47.919 (217924) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 780. Setting it to 0
+2022-05-12 01:19:47.919 (217924) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,780[. Setting it to 779
+2022-05-12 01:20:03.589 (219156) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:20:03.589 (219156) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:20:03.589 (219156) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:20:03.625 (219156) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:20:03.638 (219156) (INFO) MainThread.<module> -> Training shape: X:(436, 21, 74) Y:(436, 74)
+2022-05-12 01:20:03.638 (219156) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:20:03.638 (219156) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:20:03.638 (219156) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-3_Akima_5_1_64
+2022-05-12 01:20:03.638 (219156) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:20:10.581 (219156) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:20:16.766 (219156) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.004515, RSE:0.175742, Correlation:nan
+2022-05-12 01:20:16.767 (219156) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:20:17.644 (219156) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:20:17.645 (219156) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:20:17.645 (219156) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 780. Setting it to 0
+2022-05-12 01:20:17.645 (219156) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,780[. Setting it to 779
+2022-05-12 01:20:37.408 (220518) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:20:37.409 (220518) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:20:37.409 (220518) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:20:37.448 (220518) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:20:37.455 (220518) (INFO) MainThread.<module> -> Training shape: X:(436, 21, 74) Y:(436, 74)
+2022-05-12 01:20:37.455 (220518) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:20:37.455 (220518) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:20:37.455 (220518) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-3_Akima_6_1_64
+2022-05-12 01:20:37.455 (220518) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:20:44.101 (220518) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:20:51.146 (220518) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002549, RSE:0.183350, Correlation:nan
+2022-05-12 01:20:51.147 (220518) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:20:51.695 (220518) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:20:51.696 (220518) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:20:51.696 (220518) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 780. Setting it to 0
+2022-05-12 01:20:51.696 (220518) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,780[. Setting it to 779
+2022-05-12 01:21:12.933 (221910) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:21:12.934 (221910) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:21:12.934 (221910) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:21:12.971 (221910) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:21:12.977 (221910) (INFO) MainThread.<module> -> Training shape: X:(436, 21, 74) Y:(436, 74)
+2022-05-12 01:21:12.977 (221910) (INFO) MainThread.<module> -> Validation shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:21:12.977 (221910) (INFO) MainThread.<module> -> Testing shape: X:(156, 21, 74) Y:(156, 74)
+2022-05-12 01:21:12.977 (221910) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-3_Akima_7_1_64
+2022-05-12 01:21:12.977 (221910) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:21:19.634 (221910) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:21:26.470 (221910) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.004579, RSE:0.206138, Correlation:nan
+2022-05-12 01:21:26.471 (221910) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:21:27.24 (221910) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:21:27.25 (221910) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:21:27.25 (221910) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 780. Setting it to 0
+2022-05-12 01:21:27.25 (221910) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,780[. Setting it to 779
+2022-05-12 01:25:17.486 (1012) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:25:17.486 (1012) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:25:17.486 (1012) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:25:17.487 (1012) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/need_new_data_Akima-7.txt'
+2022-05-12 01:25:17.487 (1012) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 01:25:20.381 (1154) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:25:20.381 (1154) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:25:20.381 (1154) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:25:20.382 (1154) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/need_new_data_Akima-7.txt'
+2022-05-12 01:25:20.382 (1154) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 01:25:23.353 (1287) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:25:23.354 (1287) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:25:23.354 (1287) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:25:23.354 (1287) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/need_new_data_Akima-7.txt'
+2022-05-12 01:25:23.355 (1287) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 01:25:26.422 (1422) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:25:26.422 (1422) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:25:26.422 (1422) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:25:26.422 (1422) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/need_new_data_Akima-7.txt'
+2022-05-12 01:25:26.423 (1422) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 01:25:29.395 (1565) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:25:29.395 (1565) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:25:29.395 (1565) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:25:29.395 (1565) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/need_new_data_Akima-7.txt'
+2022-05-12 01:25:29.396 (1565) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 01:25:32.320 (1705) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:25:32.320 (1705) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:25:32.320 (1705) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:25:32.321 (1705) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/need_new_data_Akima-7.txt'
+2022-05-12 01:25:32.321 (1705) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 01:25:35.159 (1850) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:25:35.160 (1850) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:25:35.160 (1850) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:25:35.160 (1850) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'data/need_new_data_Akima-7.txt'
+2022-05-12 01:25:35.160 (1850) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2022-05-12 01:27:18.488 (5302) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:27:18.488 (5302) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:27:18.488 (5302) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:27:18.571 (5302) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:27:18.599 (5302) (INFO) MainThread.<module> -> Training shape: X:(1043, 49, 74) Y:(1043, 74)
+2022-05-12 01:27:18.599 (5302) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:27:18.599 (5302) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:27:18.599 (5302) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:27:25.771 (5302) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:27:25.771 (5302) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:29:48.591 (5302) (INFO) MainThread.train -> Training time took: 0:02:22.819063
+2022-05-12 01:29:48.592 (5302) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:29:48.623 (5302) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:29:48.625 (5302) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:29:48.626 (5302) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.004533, RSE:0.204743, Correlation:nan
+2022-05-12 01:29:48.963 (5302) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.004544, RSE:0.181618, Correlation:nan
+2022-05-12 01:29:54.672 (11093) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:29:54.672 (11093) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:29:54.673 (11093) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:29:54.753 (11093) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:29:54.782 (11093) (INFO) MainThread.<module> -> Training shape: X:(1042, 49, 74) Y:(1042, 74)
+2022-05-12 01:29:54.783 (11093) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:29:54.783 (11093) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:29:54.783 (11093) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:30:00.951 (11093) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:30:00.951 (11093) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:32:22.482 (11093) (INFO) MainThread.train -> Training time took: 0:02:21.530015
+2022-05-12 01:32:22.483 (11093) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:32:22.517 (11093) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:32:22.519 (11093) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:32:22.520 (11093) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001869, RSE:0.122118, Correlation:nan
+2022-05-12 01:32:22.841 (11093) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001763, RSE:0.084530, Correlation:nan
+2022-05-12 01:32:28.303 (16943) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:32:28.303 (16943) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:32:28.303 (16943) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:32:28.383 (16943) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:32:28.411 (16943) (INFO) MainThread.<module> -> Training shape: X:(1041, 49, 74) Y:(1041, 74)
+2022-05-12 01:32:28.411 (16943) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:32:28.411 (16943) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:32:28.411 (16943) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:32:35.728 (16943) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:32:35.729 (16943) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:34:58.761 (16943) (INFO) MainThread.train -> Training time took: 0:02:23.031677
+2022-05-12 01:34:58.762 (16943) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:34:58.794 (16943) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:34:58.796 (16943) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:34:58.797 (16943) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001311, RSE:0.132024, Correlation:nan
+2022-05-12 01:34:59.128 (16943) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001044, RSE:0.074669, Correlation:nan
+2022-05-12 01:35:04.738 (22614) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:35:04.738 (22614) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:35:04.738 (22614) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:35:04.817 (22614) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:35:04.847 (22614) (INFO) MainThread.<module> -> Training shape: X:(1040, 49, 74) Y:(1040, 74)
+2022-05-12 01:35:04.847 (22614) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:35:04.847 (22614) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:35:04.847 (22614) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:35:11.930 (22614) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:35:11.931 (22614) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:37:35.286 (22614) (INFO) MainThread.train -> Training time took: 0:02:23.354689
+2022-05-12 01:37:35.287 (22614) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:37:35.319 (22614) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:37:35.321 (22614) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:37:35.322 (22614) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001478, RSE:0.164598, Correlation:nan
+2022-05-12 01:37:35.639 (22614) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001099, RSE:0.080280, Correlation:nan
+2022-05-12 01:37:41.224 (28296) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:37:41.224 (28296) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:37:41.225 (28296) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:37:41.304 (28296) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:37:41.333 (28296) (INFO) MainThread.<module> -> Training shape: X:(1039, 49, 74) Y:(1039, 74)
+2022-05-12 01:37:41.333 (28296) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:37:41.333 (28296) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:37:41.333 (28296) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:37:47.458 (28296) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:37:47.458 (28296) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:40:10.546 (28296) (INFO) MainThread.train -> Training time took: 0:02:23.087282
+2022-05-12 01:40:10.547 (28296) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:40:10.582 (28296) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:40:10.583 (28296) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:40:10.585 (28296) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.001466, RSE:0.153316, Correlation:nan
+2022-05-12 01:40:10.899 (28296) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.001130, RSE:0.081117, Correlation:nan
+2022-05-12 01:40:16.516 (34031) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:40:16.517 (34031) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:40:16.517 (34031) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:40:16.598 (34031) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:40:16.627 (34031) (INFO) MainThread.<module> -> Training shape: X:(1038, 49, 74) Y:(1038, 74)
+2022-05-12 01:40:16.628 (34031) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:40:16.628 (34031) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:40:16.628 (34031) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:40:22.591 (34031) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:40:22.591 (34031) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:42:45.82 (34031) (INFO) MainThread.train -> Training time took: 0:02:22.489976
+2022-05-12 01:42:45.83 (34031) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:42:45.114 (34031) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:42:45.116 (34031) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:42:45.118 (34031) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002195, RSE:0.150847, Correlation:nan
+2022-05-12 01:42:45.465 (34031) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.002127, RSE:0.099427, Correlation:nan
+2022-05-12 01:42:50.610 (39697) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:42:50.611 (39697) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:42:50.611 (39697) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:42:50.692 (39697) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:42:50.722 (39697) (INFO) MainThread.<module> -> Training shape: X:(1037, 49, 74) Y:(1037, 74)
+2022-05-12 01:42:50.722 (39697) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:42:50.722 (39697) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:42:50.722 (39697) (INFO) MainThread.<module> -> Creating model
+2022-05-12 01:42:56.666 (39697) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:42:56.666 (39697) (INFO) MainThread.<module> -> Training model ... 
+2022-05-12 01:45:18.600 (39697) (INFO) MainThread.train -> Training time took: 0:02:21.933427
+2022-05-12 01:45:18.602 (39697) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2022-05-12 01:45:18.636 (39697) (INFO) MainThread.SaveResults -> Saving results ...
+2022-05-12 01:45:18.638 (39697) (INFO) MainThread.SaveHistory ->  Saving history ...
+2022-05-12 01:45:18.639 (39697) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.003204, RSE:0.172579, Correlation:nan
+2022-05-12 01:45:18.955 (39697) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.003499, RSE:0.154939, Correlation:nan
+2022-05-12 01:46:14.583 (47000) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:46:14.584 (47000) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:46:14.584 (47000) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:46:14.666 (47000) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:46:14.695 (47000) (INFO) MainThread.<module> -> Training shape: X:(1032, 49, 74) Y:(1032, 74)
+2022-05-12 01:46:14.695 (47000) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:46:14.695 (47000) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:46:14.695 (47000) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-7_Akima_1_1_64
+2022-05-12 01:46:14.695 (47000) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:46:14.695 (47000) (CRITICAL) MainThread.LoadModel -> File save/need_new_data_Akima-7_Akima_1_1_64.json does not exist
+2022-05-12 01:46:14.695 (47000) (CRITICAL) MainThread.<module> -> Model could not be loaded or created ... exiting!!
+2022-05-12 01:47:11.74 (48879) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:47:11.75 (48879) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:47:11.75 (48879) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:47:11.162 (48879) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:47:11.193 (48879) (INFO) MainThread.<module> -> Training shape: X:(1032, 49, 74) Y:(1032, 74)
+2022-05-12 01:47:11.193 (48879) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:47:11.193 (48879) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:47:11.193 (48879) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-7_Akima_1_1
+2022-05-12 01:47:11.193 (48879) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:47:17.144 (48879) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:47:22.760 (48879) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.004586, RSE:0.184429, Correlation:nan
+2022-05-12 01:47:22.761 (48879) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:47:24.41 (48879) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:47:24.42 (48879) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:47:24.42 (48879) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1820. Setting it to 0
+2022-05-12 01:47:24.42 (48879) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1820[. Setting it to 1819
+2022-05-12 01:47:43.230 (50179) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:47:43.230 (50179) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:47:43.230 (50179) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:47:43.312 (50179) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:47:43.340 (50179) (INFO) MainThread.<module> -> Training shape: X:(1032, 49, 74) Y:(1032, 74)
+2022-05-12 01:47:43.340 (50179) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:47:43.341 (50179) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:47:43.341 (50179) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-7_Akima_2_1
+2022-05-12 01:47:43.341 (50179) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:47:49.421 (50179) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:47:55.261 (50179) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002440, RSE:0.142587, Correlation:nan
+2022-05-12 01:47:55.261 (50179) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:47:56.422 (50179) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:47:56.422 (50179) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:47:56.422 (50179) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1820. Setting it to 0
+2022-05-12 01:47:56.422 (50179) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1820[. Setting it to 1819
+2022-05-12 01:48:17.484 (51555) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:48:17.484 (51555) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:48:17.484 (51555) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:48:17.561 (51555) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:48:17.589 (51555) (INFO) MainThread.<module> -> Training shape: X:(1032, 49, 74) Y:(1032, 74)
+2022-05-12 01:48:17.589 (51555) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:48:17.589 (51555) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:48:17.589 (51555) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-7_Akima_3_1
+2022-05-12 01:48:17.589 (51555) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:48:24.189 (51555) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:48:30.340 (51555) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002133, RSE:0.145171, Correlation:nan
+2022-05-12 01:48:30.341 (51555) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:48:31.479 (51555) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:48:31.479 (51555) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:48:31.479 (51555) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1820. Setting it to 0
+2022-05-12 01:48:31.479 (51555) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1820[. Setting it to 1819
+2022-05-12 01:48:48.308 (52786) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:48:48.308 (52786) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:48:48.308 (52786) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:48:48.388 (52786) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:48:48.417 (52786) (INFO) MainThread.<module> -> Training shape: X:(1032, 49, 74) Y:(1032, 74)
+2022-05-12 01:48:48.417 (52786) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:48:48.417 (52786) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:48:48.417 (52786) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-7_Akima_4_1
+2022-05-12 01:48:48.417 (52786) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:48:54.745 (52786) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:49:00.914 (52786) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002328, RSE:0.170459, Correlation:nan
+2022-05-12 01:49:00.914 (52786) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:49:01.696 (52786) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:49:01.697 (52786) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:49:01.697 (52786) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1820. Setting it to 0
+2022-05-12 01:49:01.697 (52786) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1820[. Setting it to 1819
+2022-05-12 01:49:18.726 (54020) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:49:18.726 (54020) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:49:18.726 (54020) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:49:18.806 (54020) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:49:18.836 (54020) (INFO) MainThread.<module> -> Training shape: X:(1032, 49, 74) Y:(1032, 74)
+2022-05-12 01:49:18.836 (54020) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:49:18.836 (54020) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:49:18.836 (54020) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-7_Akima_5_1
+2022-05-12 01:49:18.836 (54020) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:49:25.213 (54020) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:49:31.811 (54020) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002163, RSE:0.154183, Correlation:nan
+2022-05-12 01:49:31.812 (54020) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:49:32.592 (54020) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:49:32.593 (54020) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:49:32.593 (54020) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1820. Setting it to 0
+2022-05-12 01:49:32.593 (54020) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1820[. Setting it to 1819
+2022-05-12 01:49:51.947 (55328) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:49:51.948 (55328) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:49:51.948 (55328) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:49:52.28 (55328) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:49:52.56 (55328) (INFO) MainThread.<module> -> Training shape: X:(1032, 49, 74) Y:(1032, 74)
+2022-05-12 01:49:52.56 (55328) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:49:52.57 (55328) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:49:52.57 (55328) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-7_Akima_6_1
+2022-05-12 01:49:52.57 (55328) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:49:58.895 (55328) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:50:05.202 (55328) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002417, RSE:0.135813, Correlation:nan
+2022-05-12 01:50:05.203 (55328) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:50:06.471 (55328) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:50:06.471 (55328) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:50:06.471 (55328) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1820. Setting it to 0
+2022-05-12 01:50:06.471 (55328) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1820[. Setting it to 1819
+2022-05-12 01:50:24.700 (56684) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:50:24.701 (56684) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:50:24.701 (56684) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:50:24.782 (56684) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:50:24.812 (56684) (INFO) MainThread.<module> -> Training shape: X:(1032, 49, 74) Y:(1032, 74)
+2022-05-12 01:50:24.812 (56684) (INFO) MainThread.<module> -> Validation shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:50:24.812 (56684) (INFO) MainThread.<module> -> Testing shape: X:(364, 49, 74) Y:(364, 74)
+2022-05-12 01:50:24.812 (56684) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-7_Akima_7_1
+2022-05-12 01:50:24.812 (56684) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:50:31.347 (56684) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:50:37.648 (56684) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.003237, RSE:0.158833, Correlation:nan
+2022-05-12 01:50:37.648 (56684) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:50:38.753 (56684) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:50:38.753 (56684) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:50:38.753 (56684) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1820. Setting it to 0
+2022-05-12 01:50:38.753 (56684) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1820[. Setting it to 1819
+2022-05-12 01:53:56.471 (63881) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:53:56.472 (63881) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:53:56.472 (63881) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:53:56.532 (63881) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:53:56.550 (63881) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 01:53:56.550 (63881) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:53:56.550 (63881) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:53:56.551 (63881) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_1_1
+2022-05-12 01:53:56.551 (63881) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:54:02.229 (63881) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:54:08.578 (63881) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002279, RSE:0.146378, Correlation:nan
+2022-05-12 01:54:08.579 (63881) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:54:09.240 (63881) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:54:09.240 (63881) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:54:09.241 (63881) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 01:54:09.241 (63881) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 01:54:31.145 (65269) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:54:31.146 (65269) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:54:31.146 (65269) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:54:31.208 (65269) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:54:31.223 (65269) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 01:54:31.224 (65269) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:54:31.224 (65269) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:54:31.224 (65269) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_2_1
+2022-05-12 01:54:31.224 (65269) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:54:37.183 (65269) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:54:43.455 (65269) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002606, RSE:0.181246, Correlation:nan
+2022-05-12 01:54:43.456 (65269) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:54:44.61 (65269) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:54:44.61 (65269) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:54:44.61 (65269) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 01:54:44.61 (65269) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 01:55:05.618 (66661) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:55:05.618 (66661) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:55:05.618 (66661) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:55:05.677 (66661) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:55:05.692 (66661) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 01:55:05.692 (66661) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:55:05.692 (66661) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:55:05.692 (66661) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_3_1
+2022-05-12 01:55:05.692 (66661) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:55:11.726 (66661) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:55:17.33 (66661) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002450, RSE:0.163394, Correlation:nan
+2022-05-12 01:55:17.34 (66661) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:55:18.288 (66661) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:55:18.289 (66661) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:55:18.289 (66661) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 01:55:18.289 (66661) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 01:56:19.513 (69345) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:56:19.514 (69345) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:56:19.514 (69345) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:56:19.572 (69345) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:56:19.587 (69345) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 01:56:19.588 (69345) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:56:19.588 (69345) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:56:19.588 (69345) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_4_1
+2022-05-12 01:56:19.588 (69345) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:56:26.689 (69345) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:56:33.349 (69345) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002709, RSE:0.140170, Correlation:nan
+2022-05-12 01:56:33.350 (69345) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:56:34.128 (69345) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:56:34.128 (69345) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:56:34.128 (69345) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 01:56:34.128 (69345) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 01:56:50.636 (70604) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:56:50.636 (70604) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:56:50.636 (70604) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:56:50.694 (70604) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:56:50.709 (70604) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 01:56:50.709 (70604) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:56:50.709 (70604) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:56:50.709 (70604) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_5_1
+2022-05-12 01:56:50.709 (70604) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:56:57.475 (70604) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:57:04.207 (70604) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002733, RSE:0.126972, Correlation:nan
+2022-05-12 01:57:04.207 (70604) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:57:04.825 (70604) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:57:04.825 (70604) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:57:04.825 (70604) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 01:57:04.825 (70604) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 01:57:21.367 (71852) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:57:21.368 (71852) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:57:21.368 (71852) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:57:21.425 (71852) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:57:21.441 (71852) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 01:57:21.441 (71852) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:57:21.441 (71852) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:57:21.441 (71852) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_6_1
+2022-05-12 01:57:21.441 (71852) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:57:27.661 (71852) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:57:33.906 (71852) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.002499, RSE:0.159923, Correlation:nan
+2022-05-12 01:57:33.910 (71852) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:57:34.539 (71852) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:57:34.540 (71852) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:57:34.540 (71852) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 01:57:34.540 (71852) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
+2022-05-12 01:58:12.257 (73760) (INFO) MainThread.<module> -> Python version: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+2022-05-12 01:58:12.258 (73760) (INFO) MainThread.<module> -> Tensorflow version: 2.4.1
+2022-05-12 01:58:12.258 (73760) (INFO) MainThread.<module> -> Keras version: 2.4.0 ... Using tensorflow embedded keras
+2022-05-12 01:58:12.321 (73760) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.20) and testing set (0.20)
+2022-05-12 01:58:12.337 (73760) (INFO) MainThread.<module> -> Training shape: X:(734, 35, 74) Y:(734, 74)
+2022-05-12 01:58:12.337 (73760) (INFO) MainThread.<module> -> Validation shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:58:12.337 (73760) (INFO) MainThread.<module> -> Testing shape: X:(260, 35, 74) Y:(260, 74)
+2022-05-12 01:58:12.337 (73760) (INFO) MainThread.<module> -> Load model from save/need_new_data_Akima-5_Akima_7_1
+2022-05-12 01:58:12.337 (73760) (INFO) MainThread.LoadModel -> Loading model and weights ...
+2022-05-12 01:58:18.349 (73760) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2022-05-12 01:58:24.969 (73760) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.004689, RSE:0.184219, Correlation:nan
+2022-05-12 01:58:24.970 (73760) (INFO) MainThread.<module> -> Predict testing data
+2022-05-12 01:58:25.605 (73760) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2022-05-12 01:58:25.606 (73760) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,74[. Setting it to 0
+2022-05-12 01:58:25.606 (73760) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1300. Setting it to 0
+2022-05-12 01:58:25.606 (73760) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1300[. Setting it to 1299
